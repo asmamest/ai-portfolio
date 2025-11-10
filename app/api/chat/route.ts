@@ -248,8 +248,8 @@ const portfolioData = {
       organization: "Talan Tunisia",
       year: "2025",
       description: "Won Silver Prize for building AURA, an AI-powered RFP analysis and response generation platform",
-      imageUrl: ["/awards/talan-silver-prize.jpg",
-        "/awards/talan-silver-prize-1.jpg",
+      imageUrl: ["/awards/talan-silver-prize.jpeg",
+        "/awards/talan-silver-prize-1.jpeg",
       ],
       details:
         "Received the Silver Prize at the Talan Tunisia SummerCamp Hackathon 2025 for developing AURA, an intelligent platform for managing Requests for Proposals and generating automated responses. The project earned high praise from the jury, including Mr. Mahdi Haouas, Co-founder of Talan, and Mr. Bahjet Boussafara, CEO of Talan Tunisia, as well as other Talan experts, highlighting the creativity, impact, and excellence of the solution.",
