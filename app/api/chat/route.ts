@@ -30,18 +30,19 @@ const portfolioData = {
         type: "education" as const,
       },
       
-      {
-        year: "March-April 2025",
-        title: "Machine Learning Intern",
-        organization: "CodeAlpha (Remote)",
-        description: "Developed real-time speech emotion detection model using CNN+LSTM",
-        type: "experience" as const,
-      },
+      
       {
         year: "July-August 2025",
         title: "AI Consultant Intern",
         organization: "Talan Tunisia Consulting",
         description: "Built AURA, an AI-powered RFP analysis platform. Won Silver Prize at SummerCamp Hackathon 2025",
+        type: "experience" as const,
+      },
+      {
+        year: "March-April 2025",
+        title: "Machine Learning Intern",
+        organization: "CodeAlpha (Remote)",
+        description: "Developed real-time speech emotion detection model using CNN+LSTM",
         type: "experience" as const,
       },
     ],
