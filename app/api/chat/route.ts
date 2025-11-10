@@ -319,7 +319,7 @@ const portfolioData = {
       organization: "OMV Tunisia",
       year: "2024",
       description: "Certificate of Merit for exceptional performance during internship at OMV Tunisia",
-      imageUrl: ["/awards/omv-certificate-merit.jpg",],
+      imageUrl: ["/awards/omv-certificate-merit.png",],
       details:
         "Awarded a Certificate of Merit by OMV Tunisia for exceptional performance and contributions during my internship. This recognition highlights my professionalism, technical skills, and ability to deliver value in a corporate environment. The experience at OMV Tunisia strengthened my understanding of industrial applications of AI and machine learning in the energy sector.",
     },
