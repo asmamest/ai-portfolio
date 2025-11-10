@@ -17,6 +17,7 @@ interface ProjectDetailModalProps {
     githubLink?: string
     demoLink?: string
     imageUrl?: string
+    images?: string[]
   }
 }
 
@@ -25,9 +26,8 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
 
   if (!project) return null
 
-  const additionalImages = [project.imageUrl].filter(
-    Boolean,
-  )
+  const additionalImages = project.images?.filter(Boolean) || []
+
 
   const handlePrevImage = () => {
     setCurrentImageIndex((prev) => (prev === 0 ? additionalImages.length - 1 : prev - 1))
