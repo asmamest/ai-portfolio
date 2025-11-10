@@ -16,7 +16,7 @@ interface ProjectDetailModalProps {
     technologies: string[]
     githubLink?: string
     demoLink?: string
-    imageUrl?: string | string[]
+    imageUrl?: string[]
   }
 }
 
@@ -25,7 +25,7 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
 
   if (!project) return null
 
-  const additionalImages = project.images?.filter(Boolean) || []
+  const additionalImages = project.imageUrl?.filter(Boolean) || []
 
 
   const handlePrevImage = () => {
