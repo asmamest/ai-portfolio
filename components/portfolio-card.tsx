@@ -44,9 +44,10 @@ export function PortfolioCard({
             src={imageUrl[0] }
             alt={title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-110"
+            className="object-contain transition-transform duration-300 group-hover:scale-110" // ⬅️ CHANGEMENT ICI
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/40 to-transparent" /> {/* ⬅️ AMÉLIORATION ICI */}
         </div>
       )}
 
