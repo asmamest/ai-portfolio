@@ -14,7 +14,7 @@ interface CardData {
   link?: string
   githubLink?: string
   demoLink?: string
-  imageUrl?: string
+  imageUrl?: string[]
 }
 
 interface ScrollableCardsProps {
