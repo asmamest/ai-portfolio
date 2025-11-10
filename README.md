@@ -230,9 +230,6 @@ The project is already configured for Vercel deployment:
 3. Vercel will automatically detect Next.js and configure the build settings
 4. Your application will be deployed on every push to main
 
-**Live Deployment:**
-
-- [https://vercel.com/asmamestaysser0306-gmailcoms-projects/v0-portfolio-chat-ui](https://vercel.com/asmamestaysser0306-gmailcoms-projects/v0-portfolio-chat-ui)
 
 ### Manual Deployment
 
