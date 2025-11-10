@@ -210,7 +210,7 @@ const portfolioData = {
       ],
       githubLink: "https://github.com/asmamest/ML_Projects/tree/main/Predicting%20Heart%20Disease",
       demoLink: "",
-      imageUrl: "/projects/cvd-prediction-preview.png",
+      imageUrl: ["/projects/cvd-prediction-preview.png"],
       details:
         "",
     },
