@@ -43,7 +43,7 @@ interface ChatMessageProps {
     podcasts: Array<{ title: string; channel: string; youtubeUrl: string }>
     books: Array<{ title: string; author: string; coverUrl: string }>
     events: Array<{ title: string; description: string; imageUrl: string }>
-    moments: Array<{ type: "image" | "video"; url: string; caption: string }>
+    /*moments: Array<{ type: "image" | "video"; url: string; caption: string }>*/
   }
   contactData?: {
     name: string
@@ -127,7 +127,7 @@ export function ChatMessage({
               podcasts={funData.podcasts}
               books={funData.books}
               events={funData.events}
-              moments={funData.moments}
+              /* moments={funData.moments} */
             />
           )}
 
