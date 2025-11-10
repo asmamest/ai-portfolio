@@ -25,7 +25,7 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
 
   if (!project) return null
 
-  const additionalImages = [project.imageUrl, "/project-screenshot-2.jpg", "/project-screenshot-3.jpg"].filter(
+  const additionalImages = [project.imageUrl].filter(
     Boolean,
   )
 
