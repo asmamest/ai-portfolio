@@ -67,7 +67,7 @@ const portfolioData = {
       ],
       githubLink: "",
       demoLink: "https://drive.google.com/file/d/1z4G3VgCuytQ9_839O7aNsm3Nra9kS1GA/view?usp=sharing",
-      images: [
+      imageUrl: [
         "/projects/Aura/aura-preview.png",
         "/projects/Aura/aura-screenshot-1.png",
         "/projects/Aura/aura-screenshot-2.png",
