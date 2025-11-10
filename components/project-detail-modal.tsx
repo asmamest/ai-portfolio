@@ -16,8 +16,7 @@ interface ProjectDetailModalProps {
     technologies: string[]
     githubLink?: string
     demoLink?: string
-    imageUrl?: string
-    images?: string[]
+    imageUrl?: string | string[]
   }
 }
 
