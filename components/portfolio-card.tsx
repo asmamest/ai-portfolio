@@ -13,7 +13,7 @@ interface PortfolioCardProps {
   link?: string
   githubLink?: string
   demoLink?: string
-  imageUrl?: string
+  imageUrl?: string[]
   onClick: () => void
   className?: string
 }
@@ -41,7 +41,7 @@ export function PortfolioCard({
       {imageUrl && (
         <div className="relative h-48 w-full overflow-hidden">
           <Image
-            src={imageUrl || "/placeholder.svg"}
+            src={imageUrl[0] }
             alt={title}
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-110"
