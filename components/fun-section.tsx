@@ -64,14 +64,14 @@ export function FunSection({ description, podcasts, books, events, moments }: Fu
           <Sparkles className="h-4 w-4 mr-2" />
           Events & Workshops
         </Button>
-        <Button
+        {/*<Button
           onClick={() => setActiveSection(activeSection === "moments" ? null : "moments")}
           variant={activeSection === "moments" ? "default" : "outline"}
           className="rounded-full px-6 py-2"
         >
           <Camera className="h-4 w-4 mr-2" />
           Good Moments
-        </Button>
+        </Button>*/}
       </div>
 
       {activeSection === "podcasts" && (
@@ -170,7 +170,7 @@ export function FunSection({ description, podcasts, books, events, moments }: Fu
         </Card>
       )}
 
-      {activeSection === "moments" && (
+      {/*{activeSection === "moments" && (
         <Card className="border-2 animate-in fade-in slide-in-from-bottom-4 duration-300">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -200,7 +200,7 @@ export function FunSection({ description, podcasts, books, events, moments }: Fu
             </div>
           </CardContent>
         </Card>
-      )}
+      )}*/}
     </div>
   )
 }
