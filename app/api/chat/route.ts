@@ -249,7 +249,7 @@ const portfolioData = {
       year: "2025",
       description: "Won Silver Prize for building AURA, an AI-powered RFP analysis and response generation platform",
       imageUrl: ["/awards/talan-silver-prize.jpeg",
-        "/awards/talan-silver-prize-1.jpeg",
+        "/awards/talan-silver-prize-1.jpg",
       ],
       details:
         "Received the Silver Prize at the Talan Tunisia SummerCamp Hackathon 2025 for developing AURA, an intelligent platform for managing Requests for Proposals and generating automated responses. The project earned high praise from the jury, including Mr. Mahdi Haouas, Co-founder of Talan, and Mr. Bahjet Boussafara, CEO of Talan Tunisia, as well as other Talan experts, highlighting the creativity, impact, and excellence of the solution.",
@@ -334,9 +334,9 @@ const portfolioData = {
       {
         title: "Designing Data-Intensive Applications",
         author: "Martin Kleppmann",
-        coverUrl: "/designing-data-intensive-applications.jpg",
+        coverUrl: "/books/designing-data-intensive-applications.jpg",
       },
-      { title: "Atomic Habits", author: "James Clear", coverUrl: "/atomic-habits-cover.jpg" },
+      { title: "Atomic Habits", author: "James Clear", coverUrl: "/books/atomic-habits-cover.jpg" },
       { title: "Rich Dad, Poor Dad", author: "Robert T. Kiyosaki", coverUrl: "/books/rich-dad-poor-dad-cover.jpg" },
       { title: "The 48 Laws of Power", author: "Robert Greene", coverUrl: "/books/48-laws-power-cover.jpg" },
     ],
