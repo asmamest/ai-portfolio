@@ -275,7 +275,7 @@ const portfolioData = {
       organization: "National Engineering School of Carthage",
       year: "2024",
       description: "Awarded Best Poster for research presentation at ENICarthage",
-      imageUrl: "/awards/best-poster-enicarthage.jpg",
+      imageUrl: ["/awards/best-poster-enicarthage.jpg",],
       details:
         "Received the Best Poster award at ENICarthage 2024 for an outstanding research presentation. This recognition demonstrates my ability to communicate complex technical concepts effectively and showcase innovative research in a clear, engaging manner. The award reflects both my technical expertise and my skills in visual communication and presentation.",
     },
@@ -285,7 +285,7 @@ const portfolioData = {
       organization: "OMV Tunisia",
       year: "2024",
       description: "Certificate of Merit for exceptional performance during internship at OMV Tunisia",
-      imageUrl: "/awards/omv-certificate-merit.jpg",
+      imageUrl: ["/awards/omv-certificate-merit.jpg",],
       details:
         "Awarded a Certificate of Merit by OMV Tunisia for exceptional performance and contributions during my internship. This recognition highlights my professionalism, technical skills, and ability to deliver value in a corporate environment. The experience at OMV Tunisia strengthened my understanding of industrial applications of AI and machine learning in the energy sector.",
     },
@@ -342,10 +342,16 @@ const portfolioData = {
     ],
     events: [
       {
-        title: "ENICarthage Enterprise Forum 2023 & 2024 - Program Committee Member",
+        title: "ENICarthage Enterprise Forum 2023  - Program Committee Member",
         description:
           "Active member of the Program Committee for the ENICarthage Enterprise Forum in both 2023 and 2024. Organized and coordinated one of the largest career and networking events for engineering students, connecting them with leading companies and industry professionals.",
-        imageUrl: "/events/enicarthage-forum-2023.jpg",
+        imageUrl: "/events/enicarthage-forum-2023-2.jpg",
+      },
+      {
+        title: "ENICarthage Enterprise Forum 2023  - Program Committee Member",
+        description:
+          "Active member of the Program Committee for the ENICarthage Enterprise Forum in both 2023 and 2024. Organized and coordinated one of the largest career and networking events for engineering students, connecting them with leading companies and industry professionals.",
+        imageUrl: "/events/enicarthage-forum-2024-2.jpg",
       },
       {
         title: "Company Visit - OOREDOO Tunisia",
@@ -363,7 +369,7 @@ const portfolioData = {
         title: "Internship at Talan Tunisia Consulting",
         description:
           "Unforgettable internship experience at Talan Tunisia Consulting where I built AURA and won the Silver Prize at the SummerCamp Hackathon. Amazing team atmosphere, challenging projects, and incredible learning opportunities.",
-        imageUrl: "/events/talan-internship-team.jpg",
+        imageUrl: "/events/talan-internship-team-8.jpg",
       },
       {
         title: "Internship at OMV Tunisia",
