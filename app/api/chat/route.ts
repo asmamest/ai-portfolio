@@ -49,6 +49,37 @@ const portfolioData = {
   },
   projects: [
     {
+      id: "project-scarf-assistant",
+      name: "🧣 Scarf Brand Assistant – AI-Powered Luxury Shopping Companion",
+      description:
+        "𝐒𝐜𝐚𝐫𝐟 𝐁𝐫𝐚𝐧𝐝 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 is an 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭 𝐜𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐚𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 designed for a 𝐥𝐮𝐱𝐮𝐫𝐲 𝐬𝐜𝐚𝐫𝐟 𝐛𝐫𝐚𝐧𝐝. Integrated directly on 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩, it delivers a 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝, 𝐬𝐞𝐚𝐦𝐥𝐞𝐬𝐬, and 𝐜𝐨𝐧𝐭𝐞𝐱𝐭-𝐚𝐰𝐚𝐫𝐞 shopping experience.\n\nThe assistant combines 𝐦𝐮𝐥𝐭𝐢𝐦𝐨𝐝𝐚𝐥 𝐀𝐈 with a 𝐦𝐮𝐥𝐭𝐢-𝐚𝐠𝐞𝐧𝐭 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 to make each interaction intuitive and efficient — from analyzing scarf patterns to completing purchases.\n\n✅ 𝐒𝐞𝐚𝐦𝐥𝐞𝐬𝐬 𝐔𝐬𝐞𝐫 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞: Fully integrated with WhatsApp, supporting text, image, and voice messages with responses <2s.\n✅ 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐈𝐦𝐚𝐠𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 using BLIP-2/CLIP for visual understanding of scarf designs.\n✅ 𝐌𝐮𝐥𝐭𝐢𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐍𝐋𝐔: understands and responds in multiple languages to enhance accessibility.\n✅ 𝐅𝐥𝐞𝐱𝐢𝐛𝐥𝐞 𝐌𝐨𝐝𝐞𝐥 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞: supports Mistral-7B (local), Gemini-2.5-pro (cloud), GPT-4 (optional).\n✅ 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐞𝐝 𝐀𝐠𝐞𝐧𝐭𝐬:\n• 𝘝𝘪𝘴𝘪𝘰𝘯𝘈𝘨𝘦𝘯𝘵 – analyzes scarf images & extracts key style features.\n• 𝘋𝘪𝘢𝘭𝘰𝘨𝘈𝘨𝘦𝘯𝘵 – manages natural, context-driven conversations.\n• 𝘐𝘯𝘷𝘦𝘯𝘵𝘰𝘳𝘺𝘈𝘨𝘦𝘯𝘵 – tracks and updates real-time stock availability.\n• 𝘛𝘳𝘢𝘯𝘴𝘢𝘤𝘵𝘪𝘰𝘯𝘈𝘨𝘦𝘯𝘵 – processes orders and payment flows securely.\n✅ 𝐒𝐜𝐚𝐥𝐚𝐛𝐥𝐞 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞: built with PostgreSQL, Redis, FAISS/Weaviate for vector search, monitored via Prometheus & Grafana, supporting 10k+ concurrent users.\n\nThis project redefines digital luxury retail through conversational commerce — where elegance meets intelligence.",
+      technologies: [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "FAISS",
+        "Weaviate",
+        "BLIP-2",
+        "CLIP",
+        "Mistral-7B",
+        "Gemini-2.5-pro",
+        "GPT-4",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+      ],
+      githubLink: "https://github.com/asmamest/Scarf-Brand-Assistant.git",
+      demoLink: "",
+      imageUrl: [
+        "/projects/scarf-preview.png",
+      ],
+      details: "",
+    },
+
+    {
       id: "project-aura",
       name: "AURA - AI-powered Unified RFP Answering System",
         "description": "𝐀𝐔𝐑𝐀 is an intelligent system designed to 𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 𝐥𝐢𝐛𝐫𝐚𝐫𝐲 𝐨𝐟 𝐫𝐞𝐮𝐬𝐚𝐛𝐥𝐞 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 derived from the analysis of past 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐟𝐨𝐫 𝐏𝐫𝐨𝐩𝐨𝐬𝐚𝐥𝐬 (𝐑𝐅𝐏s).\n\nThe goal is to 𝐩𝐮𝐭 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐨𝐧 𝐭𝐡𝐞 𝐬𝐡𝐞𝐥𝐟 — pre-packaged, ready-to-use components that accelerate and optimize future proposal generation. The platform leverages advanced AI to:\n\n✅ 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐲 𝐫𝐞𝐜𝐮𝐫𝐫𝐢𝐧𝐠 𝐩𝐚𝐭𝐭𝐞𝐫𝐧𝐬 across RFPs (requirements, constraints, key functionalities).\n✅ 𝐀𝐧𝐚𝐥𝐲𝐳𝐞 𝐩𝐚𝐬𝐭 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞𝐬 (both successful and rejected) to uncover organizational strengths and weaknesses.\n✅ 𝐔𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝 𝐰𝐢𝐧/𝐥𝐨𝐬𝐬 𝐟𝐚𝐜𝐭𝐨𝐫𝐬 and continuously refine future RFP responses.\n✅ 𝐂𝐨𝐦𝐩𝐚𝐫𝐞 𝐑𝐅𝐏𝐬 to detect commonalities and divergences between client needs and proposed solutions.\n✅ 𝐌𝐨𝐝𝐞𝐫𝐧𝐢𝐳𝐞 𝐚𝐧𝐝 𝐚𝐝𝐚𝐩𝐭 𝐞𝐱𝐢𝐬𝐭𝐢𝐧𝐠 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 to align with evolving market demands.\n\nBefore responding to new RFPs, AURA can:\n✅ Analyze client requirements and 𝐦𝐚𝐭𝐜𝐡 𝐭𝐡𝐞𝐦 𝐰𝐢𝐭𝐡 𝐢𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐜𝐚𝐩𝐚𝐛𝐢𝐥𝐢𝐭𝐢𝐞𝐬.\n✅ Assess the 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 or the need for targeted recruitment.\n✅ Identify 𝐫𝐞𝐥𝐞𝐯𝐚𝐧𝐭 𝐫𝐞𝐟𝐞𝐫𝐞𝐧𝐜𝐞𝐬 𝐨𝐫 𝐩𝐚𝐬𝐭 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬 to enhance proposal credibility.\n\nIn essence, 𝐀𝐔𝐑𝐀 acts as an 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐦𝐞𝐦𝐨𝐫𝐲, mining historical data to make RFP responses 𝐟𝐚𝐬𝐭𝐞𝐫, 𝐬𝐦𝐚𝐫𝐭𝐞𝐫, 𝐚𝐧𝐝 𝐦𝐨𝐫𝐞 𝐜𝐨𝐧𝐬𝐢𝐬𝐭𝐞𝐧𝐭 — improving quality, agility, and profitability.",
