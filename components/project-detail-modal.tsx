@@ -46,7 +46,8 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
         <div className="space-y-6">
           {project.imageUrl && (
             <div className="relative w-full h-64 rounded-lg overflow-hidden border border-border">
-              <Image src={project.imageUrl || "/placeholder.svg"} alt={project.name} fill className="object-cover" />
+              <Image src={project.imageUrl[0]} alt={project.name} fill className="object-cover" />
+
             </div>
           )}
 
@@ -97,7 +98,7 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
               <div className="relative">
                 <div className="relative w-full h-64 rounded-lg overflow-hidden border border-border">
                   <Image
-                    src={additionalImages[currentImageIndex] || "/placeholder.svg"}
+                    src={additionalImages[currentImageIndex]}
                     alt={`${project.name} screenshot ${currentImageIndex + 1}`}
                     fill
                     className="object-cover"
