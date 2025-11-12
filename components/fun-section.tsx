@@ -151,56 +151,67 @@ export function FunSection({ description, podcasts, books, events, moments }: Fu
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {events.map((event, index) => (
-                <div key={index} className="space-y-3">
-                        {/* Conteneur pour les images multiples */}
-                  <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-                    {/* Si une seule image */}
-                    {event.imageUrl.length === 1 && (
-                      <Image
-                        src={event.imageUrl[0] || "/placeholder.svg?height=400&width=600"}
-                        alt={event.title}
-                        fill
-                        className="object-cover"
-                      />
-                    )}
-                    
-                    {/* Si plusieurs images - carousel */}
-                    {event.imageUrl.length > 1 && (
-                      <div className="relative w-full h-full">
-                        <div className="flex h-full transition-transform duration-300 ease-in-out">
-                          {event.imageUrl.map((image, imgIndex) => (
-                            <div key={imgIndex} className="flex-shrink-0 w-full h-full">
-                              <Image
-                                src={image || "/placeholder.svg?height=400&width=600"}
-                                alt={`${event.title} - Image ${imgIndex + 1}`}
-                                fill
-                                className="object-cover"
+              {events.map((event, index) => {
+                // 💡 On s’assure que imageUrls est toujours un tableau
+                const imageUrls = Array.isArray(event.imageUrl)
+                  ? event.imageUrl
+                  : [event.imageUrl].filter(Boolean);
+      
+                return (
+                  <div key={index} className="space-y-3">
+                    {/* Conteneur pour les images */}
+                    <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                      {/* Si une seule image */}
+                      {imageUrls.length === 1 && (
+                        <Image
+                          src={imageUrls[0] || "/placeholder.svg?height=400&width=600"}
+                          alt={event.title}
+                          fill
+                          className="object-cover"
+                        />
+                      )}
+      
+                      {/* Si plusieurs images - mini carousel */}
+                      {imageUrls.length > 1 && (
+                        <div className="relative w-full h-full">
+                          <div className="flex h-full transition-transform duration-300 ease-in-out">
+                            {imageUrls.map((image, imgIndex) => (
+                              <div key={imgIndex} className="flex-shrink-0 w-full h-full">
+                                <Image
+                                  src={image || "/placeholder.svg?height=400&width=600"}
+                                  alt={`${event.title} - Image ${imgIndex + 1}`}
+                                  fill
+                                  className="object-cover"
+                                />
+                              </div>
+                            ))}
+                          </div>
+      
+                          {/* Indicateurs de slides */}
+                          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-1">
+                            {imageUrls.map((_, imgIndex) => (
+                              <div
+                                key={imgIndex}
+                                className="w-2 h-2 rounded-full bg-white/70"
                               />
-                            </div>
-                          ))}
+                            ))}
+                          </div>
                         </div>
-                        
-                        {/* Indicateurs de slides */}
-                        <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-1">
-                          {event.imageUrl.map((_, imgIndex) => (
-                            <div 
-                              key={imgIndex}
-                              className="w-2 h-2 rounded-full bg-white/70"
-                            />
-                          ))}
-                        </div>
-                      </div>
-                    )}
+                      )}
+                    </div>
+      
+                    <h4 className="font-semibold">{event.title}</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {event.description}
+                    </p>
                   </div>
-                  <h4 className="font-semibold">{event.title}</h4>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </CardContent>
         </Card>
       )}
+
 
       {/*{activeSection === "moments" && (
         <Card className="border-2 animate-in fade-in slide-in-from-bottom-4 duration-300">
