@@ -379,7 +379,7 @@ const portfolioData = {
         title: "ENICarthage Enterprise Forum 2023  - Program Committee Member",
         description:
           "Active member of the Program Committee for the ENICarthage Enterprise Forum in both 2023 and 2024. Organized and coordinated one of the largest career and networking events for engineering students, connecting them with leading companies and industry professionals.",
-        imageUrl: "/events/enicarthage-forum-2023-2.jpg",
+        imageUrl: ["/events/enicarthage-forum-2023-2.jpg","/events/enicarthage-forum-2023-2.jpg",],
       },
       {
         title: "ENICarthage Enterprise Forum 2024  - Program Committee Member",
