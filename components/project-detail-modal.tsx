@@ -38,6 +38,7 @@ export function ProjectDetailModal({ open, onOpenChange, project }: ProjectDetai
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent>
         <DialogHeader>
           <DialogTitle className="text-2xl">{project.name}</DialogTitle>
         </DialogHeader>
