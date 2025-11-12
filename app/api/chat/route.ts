@@ -283,7 +283,13 @@ const portfolioData = {
       year: "2025",
       description: "Won Silver Prize for building AURA, an AI-powered RFP analysis and response generation platform",
       imageUrl: ["/awards/talan-silver-prize.jpeg",
-        "/awards/talan-silver-prize-1.jpg",
+        "/awards/talan-internship-team-1.jpeg",
+        "/awards/talan-internship-team-2.jpeg",
+        "/awards/talan-internship-team-3.jpeg",
+        "/awards/talan-internship-team-4.jpeg",
+        "/awards/talan-internship-team-5.jpeg",
+        "/awards/talan-internship-team-6.jpeg",
+
       ],
       details:
         "Received the Silver Prize at the Talan Tunisia SummerCamp Hackathon 2025 for developing AURA, an intelligent platform for managing Requests for Proposals and generating automated responses. The project earned high praise from the jury, including Mr. Mahdi Haouas, Co-founder of Talan, and Mr. Bahjet Boussafara, CEO of Talan Tunisia, as well as other Talan experts, highlighting the creativity, impact, and excellence of the solution.",
@@ -379,7 +385,7 @@ const portfolioData = {
         title: "ENICarthage Enterprise Forum 2023  - Program Committee Member",
         description:
           "Active member of the Program Committee for the ENICarthage Enterprise Forum in both 2023 and 2024. Organized and coordinated one of the largest career and networking events for engineering students, connecting them with leading companies and industry professionals.",
-        imageUrl: ["/events/enicarthage-forum-2023-2.jpg","/events/enicarthage-forum-2023-2.jpg",],
+        imageUrl: "/events/enicarthage-forum-2023-2.jpg",
       },
       {
         title: "ENICarthage Enterprise Forum 2024  - Program Committee Member",
