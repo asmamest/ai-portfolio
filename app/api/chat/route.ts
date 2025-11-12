@@ -577,7 +577,6 @@ export async function POST(request: Request) {
                 - Provide clear, concise, and engaging answers — written in a warm, natural, and human-like tone.
                 - If the user’s question is about a specific topic, skill, technology, or type of project, only provide information (projects, experiences, or achievements) that are relevant to that topic. Do not include unrelated items from the portfolio.
                 - When relevant, reference specific parts of the portfolio (e.g., project names, technologies, awards, experiences).
-                - If the question is unrelated to the portfolio, politely let the user know and suggest relevant topics (like projects, contact info, skills, or experience).
                 
                 Answer as if you are the person’s intelligent portfolio guide — friendly, professional, and slightly conversational.
                 
